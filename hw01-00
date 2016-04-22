@@ -1,0 +1,7 @@
+def userName():
+    userFirstName = str(raw_input("sssss:"))
+
+    return userFirstName
+
+userName()
+print userFirstName

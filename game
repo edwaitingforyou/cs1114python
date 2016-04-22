@@ -1,0 +1,25 @@
+import random
+def getStrengthOfWarriors():
+    strengthWarriorI = random.randint(4,7)
+    strengthWarriorII = random.randint(4,7)
+    strengthWarriorIII = random.randint(4,7)
+    strengthWarriorIV = random.randint(4,7)
+    strengthWarriorV = random.randint(4,7)
+    strengthWarriorVI = random.randint(4,7)
+
+    strengthOfTeamOne = strengthWarriorI + strengthWarriorII + strengthWarriorIII
+    strengthOfTeamOne = strengthWarriorIV + strengthWarriorV + strengthWarriorVI
+
+    return strengthOfTeamOne, strengthOfTeamTwo
+
+def battleBetTwoTeam(strengthOfTeamOne, stengthOfTeamTwo):
+    strengthOfTeamOne, strengOfTeamTwo = getStrengthOfWarriors
+    res = strengthOfTeamOne - strengthOfTeamTwo
+    if res > 0:
+        winner = 1
+        socer = res
+        return winner,score
+    if res < 0:
+        winner = 2
+        socer = 0-res
+        return winner,score
